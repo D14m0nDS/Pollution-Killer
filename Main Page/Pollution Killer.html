@@ -24,19 +24,46 @@
                 background: transparent;
                 border: none;
             }
-            .buttons
+            .buttonposition
             {
                 float: right;
+            }
+            .buttons {
+            padding:10px;
+            position: relative;
+            color:#FFFFFF;
+            text-align: center;
+            }
+            .container
+            {
+                position: relative;
+                 text-align: center;
+                 color: white;
+            }
+            .centered
+            {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             </style>
     </head>
     <body> 
         
         <div class="bg">
-            <div class="buttons">
+            <div class="buttonposition">
                 <br>
+                <button class="buttons">
+                    <div class="container">
+                        <img src="Images/signup1.png" width="100px">
+                        <a class="centered" href="">Sign up</a>
+                    </div>
+                   
+                </button>
                 <button>
-                    <img src="Images/signup.png" width="100px">
+                    <p>Sign in</p>
+                    <img src="Images/signup1.png" width="100px">
                 </button>
             </div>
         </div>
