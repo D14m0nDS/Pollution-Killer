@@ -14,6 +14,8 @@
     margin: 100px auto;
     background:rgb(255, 255, 255);
     padding: 5%;
+    border-radius: 30px;
+    border: limegreen;
 }
 
 .signin-ttl{
@@ -22,10 +24,6 @@
     font-size: 35px;
 }
 
-.username-box{
-    position: relative;
-
-}
 .buttonposition
 {
     position: fixed;
