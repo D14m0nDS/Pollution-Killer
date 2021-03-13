@@ -11,28 +11,16 @@
         
             <form style="text-align: center;" class="rect">
                 <div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    
+                  <br>
+                  <br>
+                  <br>
+                  <br>
                 </div>
                 <div>
                     <textarea name="more information" placeholder="Write more information if you have some" rows="8" cols="40" id="info"></textarea>
                 </div>
                 <div>
-                    <button name="sent" placeholder="sent">send</button>
-                    <button id = "find-me">Show my location</button><br/>
+                    <button id = "find-me">Submit</button><br/>
                     <p id = "status"></p>
                     <a id = "map-link" target="_blank"></a>
                 </div>
@@ -62,8 +50,6 @@
     entries.push(entry);
     localStorage.setItem("entries", JSON.stringify(entries));
     status.textContent = '';
-    mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-    mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
     var templateParams = {
     name: 'James',
     notes: 'Check this out!'
@@ -88,7 +74,7 @@ message: latitude + ", " + longitude + ", " + info,
   if(!navigator.geolocation) {
     status.textContent = 'Geolocation is not supported by your browser';
   } else {
-    status.textContent = 'Locating…';
+    status.textContent = '';
     navigator.geolocation.getCurrentPosition(success, error);
   }
 
