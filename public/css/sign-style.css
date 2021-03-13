@@ -15,45 +15,34 @@
     background:rgb(255, 255, 255);
     padding: 5%;
     border-radius: 30px;
-    border: limegreen;
 }
 
 .signin-ttl{
-    position: relative;
+    text-align: center;
     font-weight: bolder;
     font-size: 35px;
 }
 
-.buttonposition
-{
-    position: fixed;
-    left: 1400px;
+.username-box{
+    font-size: 20px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
+}
 
+.password-box{
+    font-size: 20px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
 }
-button 
-{
-    background: transparent;                
-    border: none;
+
+.email-box{
+    font-size: 20px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
 }
-.buttons 
-{
-    padding:10px;
-    position: relative;
-    color:#FFFFFF;
-    text-align: center;
-}
-.container
-{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered
-{
-    position: absolute;
-    text-decoration: none;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.passwordcopy-box{
+    font-size: 20px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
 }
