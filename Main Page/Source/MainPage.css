@@ -1,0 +1,48 @@
+body
+{
+  height: 100%;
+  margin: 0;
+}
+.background 
+{
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+
+}
+button 
+{
+    background: transparent;
+    border: none;
+}
+.buttonposition
+{
+    position: fixed;
+    left: 1100px;
+
+}
+.buttons 
+{
+padding:10px;
+position: relative;
+color:#FFFFFF;
+text-align: center;
+}
+.container
+{
+    position: relative;
+     text-align: center;
+     color: white;
+}
+.centered
+{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
