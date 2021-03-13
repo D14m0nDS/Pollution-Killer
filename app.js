@@ -30,8 +30,12 @@ app.get('/sign-in', function (req, res) {
   res.render('sign-in', {test:123});
 });
 
-app.get('/publish', function (req, res) {
-  res.render('publish', {test:123});
+app.get('/sign-up', function (req, res) {
+  res.render('sign-up', {test:123});
+});
+
+app.get('/publicate', function (req, res) {
+  res.render('publicate', {test:123});
 });
 
 
