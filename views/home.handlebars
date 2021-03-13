@@ -1,16 +1,34 @@
 
-<div class="background">
-    <div class="rect">
-        <span class="signin-ttl">Home</span>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pollution Killer</title>
+        <link rel="icon" href="Images/icon.jpg">
+        <link rel="stylesheets" href="sing-sytle.css">
+    </head>
 
-        <h2>Posts:</h2>
-        {{#each posts}}
+    <body> 
+        <div class="background">
             <div>
-                Post from {{this.author}}: <br>
-                {{this.text}}
+                <div class="buttonposition" >
+                    <button class="buttons">
+                        <div class="container">
+                            <img src="Images/signup1.png" width="110px">
+                            <a class="centered" href="Publicatepage.html">Publicate</a>
+                        </div>
+                    </button>
+                    <button class="buttons">
+                        <div class="container">
+                            <img src="Images/signup1.png" width="110px">
+                            <a class="centered" href="SignIn.html">Sign In</a>
+                        </div>
+                    </button>
+                    <button class="buttons"> 
+                        <div class="container">
+                            <img src="Images/signup1.png" width="110px">
+                            <a class="centered" href="SignUp.html">Sign Up</a>
+                        </div>
+                    </button>
+                </div>
             </div>
-            <br>
-        {{/each}}
-    </div>
-</div>
-    
+        </div>
+    </body>
