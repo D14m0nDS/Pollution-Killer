@@ -38,17 +38,58 @@
             position: relative;
 
         }
-            </style>
+        .buttonposition
+        {
+            position: fixed;
+            left: 1400px;
+
+        }
+        button 
+        {
+            background: transparent;                
+            border: none;
+        }
+        .buttons 
+        {
+            padding:10px;
+            position: relative;
+            color:#FFFFFF;
+            text-align: center;
+        }
+        .container
+        {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered
+        {
+            position: absolute;
+            text-decoration: none;
+            color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+         </style>
 
 
 </html> 
 
 <body>
     <div class="background">
+        <div class="buttonposition" >
+            <button class="buttons">
+                <div class="container">
+                    <img src="Images/signup1.png" width="110px">
+                    <a class="centered" href="Pollution Killer.html">Home</a>
+                </div>
+            </button>
+        </div>
         <div class="rect">
             <span class="signin-ttl">Sign In</span>
             <br>
-            <input type="text" class="username-box" placeholder="User name or Email" required>
+            <input type="text" class="username-box" placeholder="Username or Email" required>
             <input type="text" class="password-box" placeholder="Password" required>
             <br>
             <input type="checkbox" class="checkbox"><span>Remember password</span>
