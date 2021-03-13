@@ -1,16 +1,18 @@
 
-<div class="background">
-    <div class="rect">
-        <span class="signin-ttl">Home</span>
-
-        <h2>Posts:</h2>
-        {{#each posts}}
-            <div>
-                Post from {{this.author}}: <br>
-                {{this.text}}
-            </div>
+    <div class="background">
+        <div class="rect">
+            <span class="signin-ttl">Sign In</span>
             <br>
-        {{/each}}
+            <input type="text" class="username-box" placeholder="User name or Email" required>
+            <input type="text" class="password-box" placeholder="Password" required>
+            <br>
+            <input type="checkbox" class="checkbox"><span>Remember password</span>
+            <br>
+            <button type="submit" class="subm-btn">
+                <a href="Pollution Killer.html">Sign In</a>
+                </button>
+            <br>
+            <a href="#" class="forgotpassword">{{{test}}}Forgot password?</a>
+        </div>
     </div>
-</div>
     
