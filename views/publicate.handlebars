@@ -10,17 +10,12 @@
 <div class="background">
         
             <form style="text-align: center;" class="rect">
+                <span class="post-ttl">Publicate a location with pollution here</span>
                 <div>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
+                    <textarea name="more information" placeholder="Write more information" rows="8" cols="40" id="info" class="info"></textarea>
                 </div>
                 <div>
-                    <textarea name="more information" placeholder="Write more information if you have some" rows="8" cols="40" id="info"></textarea>
-                </div>
-                <div>
-                    <button id = "find-me">Submit</button><br/>
+                    <button id = "find-me">Publicate</button><br/>
                     <p id = "status"></p>
                     <a id = "map-link" target="_blank"></a>
                 </div>
@@ -82,4 +77,4 @@ message: latitude + ", " + longitude + ", " + info,
 
 document.querySelector('#find-me').addEventListener('click', geoFindMe);
 
-        </script>
+    </script>

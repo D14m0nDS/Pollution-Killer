@@ -9,15 +9,18 @@
 
 .rect{
     width: 300px;
-    height: 300px;
+    height: 400px;
     position: relative;
     margin: 100px auto;
     background:rgb(255, 255, 255);
     padding: 5%;
     border-radius: 30px;
 }
-
 .signin-ttl{
+    color: rgb(6, 133, 38);
+    top: 30px;
+    left: 35%;
+    position: absolute;
     text-align: center;
     font-weight: bolder;
     font-size: 35px;
@@ -45,4 +48,53 @@
     font-size: 20px;
     padding: 10px 20px 10px 5px;
     border-radius: 10px;
+}
+
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+
+.subm-btn{
+    width: 85px;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(6, 133, 38), rgb(12, 224, 111));
+}
+
+
+#find-me{
+    top: 70%;
+    left: 35%;
+    position: absolute;
+    width: 110px;
+    height: 20%;
+    background: linear-gradient(to right, rgb(6, 133, 38), rgb(12, 224, 111));
+    border-radius: 30px;
+    transform: .5s;
+}
+
+.info{
+    top: 100px;
+    left: 45px;
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    transition: .5s;
+    font-size: 11px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.post-ttl{
+    color: rgb(6, 133, 38);
+    top: 30px;
+    left: 4%;
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
 }
