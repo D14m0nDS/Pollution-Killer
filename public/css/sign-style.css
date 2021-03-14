@@ -85,8 +85,10 @@
     transition: .5s;
     font-size: 11px;
     padding: 10px 20px 10px 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     background: transparent;
+    font-size: 20px;
+    outline: none;
 }
 
 .post-ttl{
