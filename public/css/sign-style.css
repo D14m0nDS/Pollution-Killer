@@ -29,25 +29,25 @@
 .username-box{
     font-size: 20px;
     padding: 10px 20px 10px 5px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .password-box{
     font-size: 20px;
     padding: 10px 20px 10px 5px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .email-box{
     font-size: 20px;
     padding: 10px 20px 10px 5px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .passwordcopy-box{
     font-size: 20px;
     padding: 10px 20px 10px 5px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .checkbox{
